@@ -1,0 +1,18 @@
+.center-me {
+    margin: 0 auto;
+  }
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+.section {
+    background: transparent;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10%; 
+    margin-right: 10%;
+}

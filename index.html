@@ -4,7 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="This is a description meta-tag applied to our Website.">
-        <title>漢 Jair's Personal Website</title>
+        <title>Jair's Portfolio</title>
+
+        <!--Styles and formatting go here-->
+        <link rel="stylesheet" href="style.css"> 
     </head>
     <body>
         <center>
@@ -16,16 +19,17 @@
 
             <!--Profile picture-->
             <img src="img/profile_pic.jpg" width="500" height="500" alt="Jair Profile picture">
+
+            <!--We have some stuff text in here-->
+            <p><em>Look at how handsome I am OwO</em></p> 
         </center>
 
-        <!--We have some stuff text in here-->
-        <p><em>Look at how handsome I am OwO</em></p> 
+        <hr> 
 
         <!-- Section: Experience--> 
         <center> 
-            <hr> 
-            <h3>Work Experience</h3>
-            <table border=10 style="width:20%; text-align: center;">
+            <h2>Work Experience</h2>
+            <table border=0 style="width:20%; text-align: center;">
                 <!--Table head-->
                 <thead>
                     <tr>
@@ -54,13 +58,13 @@
                     <!--Some stuff to be added later-->
                 </tfoot>
             </table>
-            <hr> 
         </center>
+
+        <hr> 
 
         <!-- Section: Skills--> 
         <center> 
-            <hr> 
-            <h3>Skills</h3> 
+            <h2>Skills</h2> 
             <table style="width: 30%;" cellspacing=5> 
                 <tr> 
                     <td> 
@@ -95,25 +99,44 @@
                             </tr>
                         </table>
                     </td>
+                    <td> 
+                        <table> 
+                            <tr> 
+                                <td>Linux/Shell scripting</td> 
+                                <td>⭐⭐⭐</td>
+                            </tr> 
+                            <tr> 
+                                <td>Git/Github</td> 
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr> 
+                                <td>Latex</td> 
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                        </table>
+                    </td>
                 </tr>
             </table>
-            <hr> 
         </center>
 
-        <!-- Section: Books -->
         <hr> 
-        <h3>Books</h3>
-        <p>Books that I have read so far: </p>
-        <ul>
-            <li>Atomic Habits - James Clear</li>
-            <li>Cien Años de Soledad - Gabriel García Marquez</li>
-            <li><i>Academic books</i></li>
-            <!--A nested unordered list--> 
+
+        <!-- Section: Books -->
+        <center>
+            <h2>Books</h2>
+            <p>Books that I have read so far: </p>
+        </center>
             <ul>
-                <li>Mathematics for Machine Learning</li>
-                <li>Deep Learning</li>
+                <li><b>Atomic Habits</b> - James Clear</li>
+                <li>Cien Años de Soledad - Gabriel García Marquez</li>
+                <li><i>Academic books</i></li>
+                <!--A nested unordered list--> 
+                <ul>
+                    <li>Mathematics for Machine Learning</li>
+                    <li>Deep Learning</li>
+                </ul>
             </ul>
-        </ul>
+
         <hr> 
 
         <!-- Putting two stuff together , side by side with a table--> 
@@ -139,6 +162,26 @@
             </table>
         </center>
 
+        <!--Muffin or Chihuahua--> 
+        <hr> 
+        <div class="section">
+            <h2><span>Muffin or Chihuahua?</span></h2>
+            <br> 
+            <b>Can you guess whether it is a chihuahua or a muffin?</b> <br><br>
+            <!--Embed image with a hyperlink to the game-->
+            <a href="http://www.davetech.co.uk/chihuahuaormuffin" >
+                <img src="https://cdn-images-1.medium.com/max/1096/1*bt-E2YcPafjiPbZFDMMmNQ.jpeg" style="height: 50%; width: 50%;">
+            </a>
+
+            <h3>Bonus: If you are feeling sad, press this button.</h3>
+            <script>
+                function cheerUp(){ 
+                    alert("Cheer up! You are more amazing than you think :)"); 
+                }
+            </script>
+            <input onclick="cheerUp()" type="button" value="PRESS ME!">
+        </div>
+
         <hr>
         <!--Registration form--> 
         <center>
@@ -153,22 +196,6 @@
                 <input type="submit" name="" value="SUBMIT">
             </form>
         </center>
-
-        <hr> 
-        <center>    
-            <!-- Trying some other code and stuff-->
-            <h3>some other shit</h3>
-
-            <!-- b tag vs strong--> 
-            <b>This text is simply bold. </b> 
-            <br> 
-            <strong>This text is bold, and also more relevant.</strong> 
-            <br> 
-            <i>Simply italics text</i> 
-            <em>This is italics, and more important.</em>
-        </center>
-
-
 
     </body>
 </html>
