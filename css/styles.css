@@ -1,0 +1,71 @@
+body {
+    /*property: value*/
+    background-color: #e8eae6; 
+} 
+
+h1 { 
+    color: #295939;
+}
+
+h2 { 
+    color: #295939
+}
+
+h3 { 
+    color: #295939
+}
+
+.center-me {
+    margin: 0 auto;
+  }
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+.circular--square {
+    border-radius: 50%;
+}
+
+.top_hr { 
+    size: 3; 
+}
+
+
+
+/* .myDiv{ 
+    position: relative;
+}
+
+.myDiv::before{
+    content: "";
+    position: absolute;
+    background-image: url("https://media.trytn.site/stpcaribe/2017/10/Dos-Ojos-Cenote-Tour.jpg"); 
+    background-size: cover;
+    height: auto;
+    opacity: 0.4;
+} */
+
+img { 
+    max-width: 100%; 
+    height: auto;
+}
+
+.dots { 
+    /*Change for horizontal rule*/ 
+    border-color: white;
+    border-style: dotted none none ;
+    border-width: 10px;
+    width: 5%;
+}
+
+.section {
+    background: transparent;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10%; 
+    margin-right: 10%;
+}
