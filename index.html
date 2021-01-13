@@ -3,13 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="This is a description meta-tag applied to our Website.">
-        <title>Jair's Portfolio</title>
+        <meta name="description" content="Jair Parra - Data Scientist Portfolio.">
+        <title>Jair Parra - Data Scientist</title>
 
         <!--Styles and formatting go here-->
         <link rel="stylesheet" href="style.css"> 
+
+        <!--Better: Can add style at the head--> 
+        <style> 
+            body {
+                /*property: value*/
+                background-color:lightblue; 
+            }
+
+            /*Change for horizontal rule*/ 
+            hr { 
+                background-color: white;
+                border-style: none;
+                height: 2px;
+            }
+            
+        </style>
     </head>
+
+    <!-- <body style="background-color: #e8efeb;"> --> <!--Don't do this!!-->
     <body>
+        <center>
         <center>
             <hr size="3" noshade>
             <!--Level 1 Heading for the Title-->
@@ -18,7 +37,7 @@
             <hr size="3" noshade>
 
             <!--Profile picture-->
-            <img src="img/profile_pic.jpg" width="500" height="500" alt="Jair Profile picture">
+            <img src="img/profile_pic.jpg" width="30%" height="30%" alt="Jair Profile picture" class="circular--square" >
 
             <!--We have some stuff text in here-->
             <p><em>Look at how handsome I am OwO</em></p> 
